@@ -5,6 +5,9 @@
 	margin-left: 25px;
 	margin-bottom: 20px;
 	opacity: 0.5;
+	margin-top: 0px;
+	border-top:0px;
+	padding-top: 0px;
 	
 }
 
@@ -15,7 +18,9 @@
 	margin-left: 25px;
 	margin-bottom: 20px;
 	opacity: 1;
-	
+	margin-top: 0;
+	border-top:0px;
+	padding-top: 0px;
 }
 
 .line2{
@@ -45,6 +50,7 @@
 	margin-left: 25px;
 	margin-bottom:20px;
 
+
 }
 
 .line3:hover{
@@ -65,13 +71,32 @@
 
 .heading1{
 
-text-decoration: underline;
-margin-bottom: 50px;
-font-size: 20px;
-background-color: lightgrey;
-border-color: lightgrey;
-color: black;
 
-border-size:100px;
+float: top;
+font-size: 30px;
+background-image: url(http://wallsev.com/wp-content/uploads/2014/01/grey-wall-full-hd-by-lars-fredriksson-black-1259964.jpg);
+color: white;
+margin-bottom: 30px;
+border-bottom: 100px;
+padding-bottom: 40px;
 }
 
+h3{
+	color:white;
+	position: fixed;
+	opacity: 1;
+	background-image:url(http://wallsev.com/wp-content/uploads/2014/01/grey-wall-full-hd-by-lars-fredriksson-black-1259964.jpg); 
+}
+
+h3:active{
+
+opacity: 0.4;
+
+}
+
+.text1{
+	
+	text-align: center;
+	background-image: url(http://wallsev.com/wp-content/uploads/2014/01/grey-wall-full-hd-by-lars-fredriksson-black-1259964.jpg);
+ 	color: white;
+}
